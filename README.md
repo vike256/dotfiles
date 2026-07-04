@@ -27,6 +27,14 @@ managed=true
 `sudo systemctl restart networking.service`  
 `sudo systemctl restart NetworkManager`  
 
+## gnome-keyring setup to unlock ssh key while logged in
+`vi ~/.profile`  
+Paste to bottom:  
+eval $(gnome-keyring-daemon --start)  
+export SSH_AUTH_SOCK  
+export GNOME_KEYRING_PID  
+export GNOME_KEYRING_CONTROL  
+
 ## Install dotfiles 
 git clone this or something  
 
