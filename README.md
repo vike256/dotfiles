@@ -3,7 +3,7 @@ OS: Debian 13
 Device: Laptop  
 
 ## Install from apt
-firefox-esr flatpak fastfetch neovim htop curl tmux fzf zip git gh sway swayidle swaylock i3status brightnessctl wofi psmisc power-profiles-daemon network-manager gnome-keyring pipewire-audio wireplumber pipewire-pulse pipewire-alsa  libspa-0.2-bluetooth
+firefox-esr flatpak fastfetch neovim htop curl tmux fzf zip git gh sway swayidle swaylock kanshi i3status brightnessctl wofi psmisc power-profiles-daemon network-manager gnome-keyring pipewire-audio wireplumber pipewire-pulse pipewire-alsa  libspa-0.2-bluetooth
 
 ## Handle lid suspend
 `sudo vi /etc/systemd/logind.conf`  

@@ -30,3 +30,6 @@
 
 !.config/foot/
 !.config/foot/*
+
+!.config/kanshi/
+!.config/kanshi/*

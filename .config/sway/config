@@ -268,4 +268,6 @@ exec swayidle -w \
 	before-sleep $lock \
 	lock $lock
 
+exec_always 'pkill kanshi; kanshi'
+
 include /etc/sway/config.d/*
