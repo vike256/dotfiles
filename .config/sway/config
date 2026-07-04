@@ -260,6 +260,7 @@ input "2:14:ETPS/2_Elantech_TrackPoint" {
 focus_follows_mouse no
 hide_edge_borders both
 workspace_layout tabbed
+output "*" bg ~/wallpapers/debian_mountain.png fill
 
 exec swayidle -w \
 	timeout 300 $lock \
