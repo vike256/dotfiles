@@ -261,10 +261,9 @@ focus_follows_mouse no
 hide_edge_borders both
 workspace_layout tabbed
 
-exec_always swayidle -w \
+exec swayidle -w \
 	timeout 300 $lock \
-	timeout 600 'swaymsg "output * power off"' \
-		resume 'swaymsg "output * power on"' \
+	timeout 600 'systemctl suspend' \
 	before-sleep $lock \
 	lock $lock
 
