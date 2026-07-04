@@ -3,8 +3,9 @@
 
 !*/
 
-# Allow .gitignore
+# Allow .gitignore and README.md
 !.gitignore
+!README.md
 
 # Allow git to open .config
 !.config/
