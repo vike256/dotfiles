@@ -1,12 +1,28 @@
+# Start by ignoring all
 *
+
 !*/
+
+# Allow .gitignore
 !.gitignore
+
+# Allow git to open .config
 !.config/
+
+# Allow git to open .config/nvim/
+# Full path to files needs to be allowed folder by folder
 !.config/nvim/
 !.config/nvim/*
+
+# Repeat above for all relevant folders
 !.config/tmux/
 !.config/tmux/*
+
 !.config/sway/
 !.config/sway/*
+
 !.config/i3status/
 !.config/i3status/*
+
+!.config/wofi/
+!.config/wofi/*
