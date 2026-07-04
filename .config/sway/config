@@ -18,6 +18,8 @@ set $term foot
 # Your preferred application launcher (default: wmenu-run)
 set $menu wofi --show drun --allow-images
 
+set $lock 'swaylock -f -c 000000'
+
 include /etc/sway/config-vars.d/*
 
 ### Output configuration
@@ -70,6 +72,9 @@ include /etc/sway/config-vars.d/*
 
 	# Start browser
 	bindsym $mod+Shift+f exec firefox
+
+	# Lock
+	bindsym $mod+Ctrl+l exec $lock
 
     # Kill focused window
     bindsym $mod++Shift+q kill
@@ -256,10 +261,10 @@ focus_follows_mouse no
 hide_edge_borders both
 
 exec_always swayidle -w \
-	timeout 300 'swaylock -f -c 000000' \
+	timeout 300 $lock \
 	timeout 600 'swaymsg "output * power off"' \
 		resume 'swaymsg "output * power on"' \
-	before-sleep 'swaylock -f -c 000000' \
-	lock 'swaylock -f -c 000000'
+	before-sleep $lock \
+	lock $lock
 
 include /etc/sway/config.d/*
