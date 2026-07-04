@@ -8,6 +8,7 @@ firefox-esr flatpak fastfetch neovim htop curl tmux fzf zip git gh sway swayidle
 ## Handle lid suspend
 `sudo vi /etc/systemd/logind.conf`  
 HandleLidSwitch=suspend  
+HandleLidSwitchDocked=ignore
 
 ## Commands to run
 `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`  
