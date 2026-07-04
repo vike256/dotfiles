@@ -259,6 +259,7 @@ input "2:14:ETPS/2_Elantech_TrackPoint" {
 
 focus_follows_mouse no
 hide_edge_borders both
+workspace_layout tabbed
 
 exec_always swayidle -w \
 	timeout 300 $lock \
