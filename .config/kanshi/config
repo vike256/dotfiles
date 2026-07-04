@@ -1,4 +1,9 @@
 profile {
+	output 'ASUSTek COMPUTER INC VG27AQL5A TALMQS031099' mode 2560x1440@72.000Hz
+	output eDP-1 disable
+}
+
+profile {
 	output DP-1 enable
 	output eDP-1 disable
 }
