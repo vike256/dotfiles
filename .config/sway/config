@@ -255,4 +255,11 @@ input "2:14:ETPS/2_Elantech_TrackPoint" {
 focus_follows_mouse no
 hide_edge_borders both
 
+exec_always swayidle -w \
+	timeout 15 'swaylock -f -c 000000' \
+	timeout 30 'swaymsg "output * power off"' \
+		resume 'swaymsg "output * power on"' \
+	before-sleep 'swaylock -f -c 000000' \
+	lock 'swaylock -f -c 000000'
+
 include /etc/sway/config.d/*
