@@ -12,7 +12,7 @@ set $term foot
 # Your preferred application launcher (default: wmenu-run)
 set $menu wofi --show drun --allow-images
 # Preferred lock function
-set $lock 'swaylock -f -c 000000'
+set $lock 'swaylock -f -c 005500'
 
 include /etc/sway/config-vars.d/*
 
@@ -225,7 +225,7 @@ bar {
 focus_follows_mouse no
 hide_edge_borders both
 workspace_layout tabbed
-output "*" bg ~/wallpapers/debian_mountain.png fill
+output "*" bg ~/wallpapers/tux.jpg fill
 
 exec_always 'pkill kanshi; kanshi'
 
