@@ -40,5 +40,5 @@ git clone this or something
 
 
 ## TODO
-Some handling for external displays
-- `swaymsg output eDP-1 toggle` as a hack for now. 
+- Better handling for external displays
+- Block swayidle while playing media
