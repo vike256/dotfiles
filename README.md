@@ -42,3 +42,4 @@ git clone this or something
 ## TODO
 - Better handling for external displays
 - Block swayidle while playing media
+- Dimming or something to indicate screen is going to lock by swayidle
