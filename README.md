@@ -3,7 +3,7 @@ OS: Debian 13
 Device: Laptop  
 
 ## Install from apt
-firefox-esr flatpak fastfetch neovim htop curl tmux fzf zip git gh sway swayidle swaylock kanshi i3status brightnessctl wofi mpv xdg-desktop-portal-wlr psmisc power-profiles-daemon network-manager gnome-keyring pipewire-audio wireplumber pipewire-pulse pipewire-alsa  libspa-0.2-bluetooth
+firefox-esr flatpak fastfetch neovim htop curl tmux fzf zip git gh sway swayidle swaylock kanshi i3status brightnessctl slurp grim swayimg wofi mpv xdg-desktop-portal-wlr psmisc power-profiles-daemon network-manager gnome-keyring pipewire-audio wireplumber pipewire-pulse pipewire-alsa  libspa-0.2-bluetooth
 
 ## Handle lid suspend
 `sudo vi /etc/systemd/logind.conf`  
@@ -43,3 +43,4 @@ git clone this or something
 - Better handling for external displays
 - Block swayidle while playing media
 - Dimming or something to indicate screen is going to lock by swayidle
+- BT Device name on swaybar?

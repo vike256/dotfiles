@@ -213,7 +213,7 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
     # Take a screenshot with grim
-    bindsym Print exec grim
+    bindsym Print exec grim -g "$(slurp)"
 #
 # Status Bar:
 #
