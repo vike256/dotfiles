@@ -37,6 +37,7 @@ ethernet _first_ {
 
 battery all {
     format = "Battery: %percentage %status %remaining"
+	integer_battery_capacity = true
 }
 
 tztime local {
