@@ -38,9 +38,9 @@ export GNOME_KEYRING_CONTROL
 ## Install dotfiles 
 git clone this or something  
 
-
 ## TODO
 - Better handling for external displays
 - Block swayidle while playing media
 - Dimming or something to indicate screen is going to lock by swayidle
 - BT Device name on swaybar?
+- Fingerprint auth https://computingforgeeks.com/how-to-setup-built-in-fingerprint-reader-authentication-with-pam-on-any-linux/
