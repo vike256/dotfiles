@@ -1,8 +1,6 @@
 # Start by ignoring all
 *
 
-!*/
-
 # Allow .gitignore and README.md
 !.gitignore
 !README.md
