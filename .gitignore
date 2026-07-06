@@ -18,18 +18,3 @@
 # Repeat above for all relevant folders
 !.config/tmux/
 !.config/tmux/*
-
-!.config/sway/
-!.config/sway/*
-
-!.config/i3status/
-!.config/i3status/*
-
-!.config/wofi/
-!.config/wofi/*
-
-!.config/foot/
-!.config/foot/*
-
-!.config/kanshi/
-!.config/kanshi/*
