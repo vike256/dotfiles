@@ -4,7 +4,7 @@
 # Allow .gitignore and README.md
 !.gitignore
 !README.md
-!setup.sh
+!debian.sh
 
 # Allow git to open .config
 !.config/
