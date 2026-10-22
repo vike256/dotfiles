@@ -12,8 +12,8 @@
 # Allow git to open .config/nvim/
 # Full path to files needs to be allowed folder by folder
 !.config/nvim/
-!.config/nvim/*
+!.config/nvim/init.lua
 
 # Repeat above for all relevant folders
 !.config/tmux/
-!.config/tmux/*
+!.config/tmux/tmux.conf
